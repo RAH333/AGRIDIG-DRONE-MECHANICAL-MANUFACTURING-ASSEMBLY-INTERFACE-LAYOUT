@@ -1,0 +1,9 @@
+Component_ID,Name,Dimensions_mm,Material,Mass_g,Quantity
+CF-01,Main Top/Bottom Plates,200x200x2.0,Carbon Fiber 3K,140,2
+CF-02,Coaxial Arm Tubes,D16x1.5x180,Carbon Fiber Woven,180,4
+AL-01,Digging Mechanism Subframe,120x60x40,Aluminum 6061-T6,210,1
+MOT-01,Brushless DC Motor,D35x36,Mixed (Copper/Alum),720,8
+STP-01,Plunge Stepper Motor,28x28x32,Mixed (Steel/Copper),150,1
+SRV-01,Clamshell Scoop Servo,40x20x40,Resin/Metal Gears,60,1
+LC-01,Inline Load Cell Transducer,45x10x10,Alloy Steel,25,1
+BATT-01,LiPo Battery Pack,140x50x45,Lithium Polymer,650,1
