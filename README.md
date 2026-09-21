@@ -1,5 +1,28 @@
 # AGRIDIG-DRONE-MECHANICAL-MANUFACTURING-ASSEMBLY-INTERFACE-LAYOUT
-TecX (Technology Engineering Computation Expansion ) Robotics Simulation Engineer
+
+# Agricultural AgriDig-Drone Project Repository
+
+This repository contains the complete design, analysis framework, and firmware integration files for a small-scale, multi-functional agricultural drone capable of soil digging and sample picking.
+
+## Repository Structure
+
+```text
+â”œâ”€â”€ README.md                      # Project Overview and Quickstart
+â”œâ”€â”€ docs/
+â”‚   â”œâ”€â”€ design_specifications.md   # Detailed Mechanical & System Architecture
+â”‚   â””â”€â”€ structural_analysis.md    # FEA, Motor Thrust, & Analytical Calculations
+â”œâ”€â”€ hardware/
+â”‚   â”œâ”€â”€ geometry_cad_bom.csv       # Component Dimensions, Weights, Materials, & BOM
+â”‚   â””â”€â”€ drone_assembly_drawing.txt # ASCII Technical Manufacturing Layout
+â””â”€â”€ src/
+    â”œâ”€â”€ main_controller.ino        # Flight Control & Mission Sequence State Machine
+    â””â”€â”€ actuator_sensor_driver.py  # Transducer, Sensor, & Actuator Interface Driver
+```
+
+## Quick Start
+1. **Mechanical Design:** Review `hardware/drone_assembly_drawing.txt` and `hardware/geometry_cad_bom.csv` for structural metrics.
+2. **Analysis:** Refer to `docs/structural_analysis.md` for aerodynamic thrust requirements and stress limits.
+3. **Firmware:** Deploy `src/main_controller.ino` to your primary microcontroller board and run `src/actuator_sensor_driver.py` to handle peripheral loops.
 ```
 ================================================================================
 AGRIDIG-DRONE MECHANICAL MANUFACTURING ASSEMBLY INTERFACE LAYOUT
