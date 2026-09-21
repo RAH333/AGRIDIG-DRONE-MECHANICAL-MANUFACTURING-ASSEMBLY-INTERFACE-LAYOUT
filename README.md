@@ -1,2 +1,65 @@
 # AGRIDIG-DRONE-MECHANICAL-MANUFACTURING-ASSEMBLY-INTERFACE-LAYOUT
 TecX (Technology Engineering Computation Expansion ) Robotics Simulation Engineer
+```
+================================================================================
+AGRIDIG-DRONE MECHANICAL MANUFACTURING ASSEMBLY INTERFACE LAYOUT
+================================================================================
+
+            [Propeller Top]                  [Propeller Top]
+                 \    /                           \    /
+              =======O=======               =======O=======
+
+              | Motor Top 1 |               | Motor Top 2 |
+              ---------------               ---------------
+
+                     |                             |
+       ==============#=============================#==============
+      / [Arm 1]                                           [Arm 2] \
+     /                                                             \
+    +---------------------------------------------------------------+
+
+    |                  MAIN CARBON FIBER TOP PLATE                  |
+    |                                                               |
+    |      +-------------------------------------------------+      |
+    |      |         src/main_controller.ino (MCU)          |      |
+    |      +-------------------------------------------------+      |
+    |                                                               |
+    |      +-------------------------------------------------+      |
+    |      |            LiPo Power Delivery Unit             |      |
+    |      +-------------------------------------------------+      |
+    |                                                               |
+    |                  MAIN CARBON FIBER BOTTOM PLATE               |
+    +---------------------------------------------------------------+
+     \                                                             /
+      \ [Arm 3]                                           [Arm 4] /
+       ==============#=============================#==============
+
+                     |                             |
+              ---------------               ---------------
+
+              | Motor Bott 3|               | Motor Bott 4|
+              =======O=======               =======O=======
+                 /    \                           /    \
+            [Propeller Bott]                 [Propeller Bott]
+
+                     ||                             ||
+                     ||  [DIGGING PLUNGE ASSEMBLY]  ||
+                     ||                             ||
+                     ++=============================++
+                     ||  NEMA 11 Lead Screw Motor   ||
+                     ||         (STP-01)            ||
+                     ||=============================||
+                     ||    [---Linear Rail---]      ||
+                     ||    [---Linear Rail---]      ||
+                     ||=============================||
+                     || Inline S-Type Load Cell     ||
+                     ||         (LC-01)             ||
+                     ++=============================++
+                     ||   Digital Clamshell Servo   ||
+                     ||         (SRV-01)            ||
+                     +---------------+---------------+
+                                    / \
+                                   /   \
+                              [Scoop 1] [Scoop 2]
+                              (Soil Collection Pod)
+```
